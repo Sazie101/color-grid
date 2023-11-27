@@ -16,6 +16,8 @@ function addToGrid(shape) {
 
 class Shape {
     static shapeCounter = 0;
+    _shapetype;
+    _color;
 
     constructor(shapeType, color) {
         this.shapeNumber = ++Shape.shapeCounter;
